@@ -16,6 +16,12 @@
     border: 2px solid rebeccapurple;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+
 .collapsible {
     background-color: #777;
     color: white;

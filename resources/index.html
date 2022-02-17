@@ -17,10 +17,9 @@
         border: 5px solid black;
     }
     body {
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin: 0 auto;
+        width: 70%;
+        border: solid 10px
     }
 
 </style>
@@ -61,12 +60,12 @@
 </p>
 
 <!--Albums secion with collapsible buttons allowing to see songs from each album-->
-<div>
+<div> 
     <p>
         Below there is a list of all major Linkin Park albums, in order from oldest to newst:
         <ul>
-
-            <li><strong>Hybrid Theory</strong> (2000):
+            
+            <div class="wrapper"><li><strong>Hybrid Theory</strong> (2000): </div>
                 <button type="button" class="collapsible">Songs</button>
                 <div class="content">
                     <ol>
@@ -86,7 +85,7 @@
                 </div>
             </li>
 
-            <li><strong>Meteora</strong> (2003):
+            <div><li><strong>Meteora</strong> (2003):</div>
                 <button type="button" class="collapsible">Songs</button>
                 <div class="content">
                     <ol>
@@ -107,7 +106,7 @@
                 </div>
             </li>
 
-            <li><strong>Minutes to Midnight</strong> (2007):
+            <div><li><strong>Minutes to Midnight</strong> (2007):</div>
                 <button type="button" class="collapsible">Songs</button>
                 <div class="content">
                     <ol>
@@ -127,7 +126,7 @@
                 </div>
             </li>
 
-            <li><strong>Thousand Suns</strong> (2010):
+            <div><li><strong>Thousand Suns</strong> (2010):</div>
                 <button type="button" class="collapsible">Songs</button>
                 <div class="content">
                     <ol>
@@ -150,7 +149,7 @@
                 </div>
             </li>
 
-            <li><strong>Living Things</strong> (2012):
+            <div><li><strong>Living Things</strong> (2012):</div>
                 <button type="button" class="collapsible">Songs</button>
                 <div class="content">
                     <ol>
@@ -170,7 +169,7 @@
                 </div>
             </li>
 
-            <li><strong>The Hunting Party</strong> (2014):
+            <div><li><strong>The Hunting Party</strong> (2014):</div>
                 <button type="button" class="collapsible">Songs</button>
                 <div class="content">
                     <ol>
@@ -190,7 +189,7 @@
                 </div>
             </li>
 
-            <li><strong>One More Light</strong> (2017):
+            <div><li><strong>One More Light</strong> (2017):</div>
                 <button type="button" class="collapsible">Songs</button>
                 <div class="content">
                     <ol>
@@ -210,10 +209,17 @@
         </ul>
     </p>
 </div>
-<div>
+<div style="background-color: rgba(94, 116, 116, 0.39);">
     <img src="./images/Linkin_Park_albums.jpg" alt="Linking Park albums" class="center" usemap="#albums" width="60%" height="60%">
     <map name="albums">
-        <area shape="rect" coords="00,00 334,334" alt="Hybrid Theora album cover" href="https://en.wikipedia.org/wiki/Hybrid_Theory">
+        <area shape="rect" coords="15,15 590,590" alt="Hybrid Theora album cover" href="https://open.spotify.com/album/2pKw6GERJVAD61449B1EEM">
+        <area shape="rect" coords="610,15 1190,590" alt="Reanimation album cover" href="https://open.spotify.com/album/1MhedvSCTqGphXQz3oucpj">
+        <area shape="rect" coords="1200,15 1800,590" alt="Meteora album cover" href="https://open.spotify.com/album/4Gfnly5CzMJQqkUFfoHaP3">
+        <area shape="rect" coords="15,610 590,1180" alt="Minutes to Midnight album cover" href="https://open.spotify.com/album/2tlTBLz2w52rpGCLBGyGw6">
+        <area shape="rect" coords="15,1200 590,1800" alt="Living Things album cover" href="https://open.spotify.com/album/4XHIjbhjRmqWlosjj5rqSI">
+        <area shape="rect" coords="610,610 1180,1800" alt="The Haunting Part album cover" href="https://open.spotify.com/album/3XB2yloP7l00tEUmaODtVi">
+        <area shape="rect" coords="1200,610 1800,1180" alt="Thousand Suns album cover" href="https://open.spotify.com/album/5uvXx5ZQswNRFCdHR521YZ">
+        <area shape="rect" coords="1200,1200 1800,1800" alt="One More Light album cover" href="https://open.spotify.com/album/5Eevxp2BCbWq25ZdiXRwYd">
     </map>
 </div>
 
